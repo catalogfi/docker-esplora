@@ -1,17 +1,17 @@
 # Docker esplora
 
-Dockerfile of the public image [ghcr.io/vulpemventures/esplora:latest](https://github.com/orgs/vulpemventures/packages/container/package/esplora)
+Dockerfile of the public image [ghcr.io/catalogfi/esplora:latest](https://github.com/orgs/catalogfi/packages/container/package/esplora)
 
 Pull the image:
 
 ```bash
-$ docker pull ghcr.io/vulpemventures/esplora:latest
+$ docker pull ghcr.io/catalogfi/esplora:latest
 ```
 
 Run the container:
 
 ```bash
-$ docker run -p 5000:5000 -d -e API_URL=https://blockstream.info/api -e PORT 5000 ghcr.io/vulpemventures/esplora:latest
+$ docker run -p 5000:5000 -d -e API_URL=https://blockstream.info/api -e PORT 5000 ghcr.io/catalogfi/esplora:latest
 ```
 
 ## Release

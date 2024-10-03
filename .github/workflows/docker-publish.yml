@@ -42,6 +42,6 @@ jobs:
         run:  >-
           docker buildx build --push 
           --file ./$COMMIT_SHA/Dockerfile 
-          --tag ghcr.io/vulpemventures/$IMAGE_NAME:latest 
-          --tag ghcr.io/vulpemventures/$IMAGE_NAME:$COMMIT_SHA 
+          --tag ghcr.io/catalogfi/$IMAGE_NAME:latest 
+          --tag ghcr.io/catalogfi/$IMAGE_NAME:$COMMIT_SHA 
           --platform linux/arm64,linux/amd64 .
